@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/SpecialEffects.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="userInfo">
+        <div class="web">
+            <div class="music">
+                <img src="../img/musicStart.png" alt="">
+            </div>
+            <div class="logo">
+                <img src="../img/logo.png" alt="">
+            </div>           
+        </div>
+        <div class="fn">
+            <img src="../img/wechat.png" alt="">
+            <img src="../img/qq.png" alt="">
+            <img src="../img/share.png" alt="">
+        </div>
+        <div class="user">
+            <div class="LoginAndRegister">
+                <div class="sbutton">
+                   <button id="blopage">登录页面</button>
+                   <button id="brepage">注册页面</button>
+                </div>
+                <div class="page">
+                    <div class="userLogin">
+                        <img src="../img/login.png" alt="" width="50px">
+                        <input type="text" placeholder="请输入邮箱账号...">
+                        <input type="password" placeholder="请输入密码...">
+                        <button id="blo">登录</button>
+                    </div>
+                    <div class="userRegister">
+                        <input type="text" placeholder="请输入用户名...">
+                        <input type="email" placeholder="请输入邮箱...">
+                        <input type="text" placeholder="请输入密码...">
+                        <button id="bre">注册</button>
+                    </div>   
+                </div>         
+            </div> 
+            <div class="userInfoEhart">
+                <div class="cancellation"><button id="return">注销</button></div>
+                <div class="info"> 
+                    <div class="box1"><img src="../img/头像.png" alt="">
+                        <button>更换图像</button>
+                    </div>
+                    <div class="box2"><p>用户：@zhangxubo</p>
+                        <p>邮箱：2506030321@qq.com</p>
+                    </div>                  
+                </div>
+                <div class="ehart"></div>
+                <div class="label">
+                    <p>个人标签：运动 景色 娱乐</p>
+                </div>    
+            </div>  
+        </div>
+    </div>
+    <div class="scenicSpot">
+        <div class="catalogue">
+            <ul>
+                <li><a href="#"><h3>Home</h3></a></li>
+                <li><a href="#"><h3>SourceCode</h3></a></li>
+                <li><a href="#"><h3>DesignIdeas</h3></a></li>
+                <li><a href="#"><h3>ContactAuthor</h3></a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Please enter the name of the scenic spot...">
+            <button>search</button>
+        </div>
+        <div class="carousel">
+            <ul class="car">
+                <li><img src="../img/轮播图/1.jpg" alt=""></li>
+                <li><img src="../img/轮播图/2.jpg" alt=""></li>
+                <li><img src="../img/轮播图/3.jpg" alt=""></li>
+                <!-- <li><img src="../img/轮播图/4.jpg" alt=""></li>
+                <li><img src="../img/轮播图/5.jpg" alt=""></li>
+                <li><img src="../img/轮播图/6.jpg" alt=""></li>
+                <li><img src="../img/轮播图/7.jpg" alt=""></li>
+                <li><img src="../img/轮播图/8.jpg" alt=""></li>
+                <li><img src="../img/轮播图/9.jpg" alt=""></li>
+                <li><img src="../img/轮播图/10.jpg" alt=""></li> -->
+            </ul>  
+            <button>华山</button>
+         </div>
+    <div class="scenicSpotInfo">
+        <div class="scenic">
+            <h1>Attraction Details</h1>
+            <h3>&nbsp;&nbsp;&nbsp;景点名称：{{msg[0].name}}</h3>
+            <h3>&nbsp;&nbsp;&nbsp;景点地址：渭南市华阴市玉泉路南段</h3>
+            <h3>&nbsp;&nbsp;&nbsp;景点热度：6.3</h3>
+            <h3>&nbsp;&nbsp;&nbsp;景点标签：运动 景色 娱乐</h3>
+        </div>
+        <div class="s"></div>
+    </div>
+    </div>
+    <div class="eharts">
+        <h3>Attraction popularity of each city</h3>
+        <div class="NightingaleRoseChart"></div>
+        <h3>Passenger Flow Chart by City</h3>
+        <div class="SankeyChart"></div>
+    </div>
+    <script src="../js/vue.js"></script>
+    <!-- jQuery -->
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/echarts.min.js"></script>
+    <!-- 登录注册盒子翻转特效 及登录注册功能-->
+    <script src="../js/userInfo.js"></script>
+    <script src="../js/myEharts.js"></script>
+    <script src="../js/carsousel.js"></script>
+
+</body>
+</html>

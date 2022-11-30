@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(166, 172, 204);
+    font-family: consolas;
+    
+}
+body{
+    display: flex;
+    justify-content:space-between;
+}
+.userInfo{
+    padding-top: 30px;
+    display: flex;
+    background-color:rgb(41, 45, 62);
+    align-self: 1;
+    width: 400px;
+    height: 900px;
+    flex-direction: column;
+    align-items: center;
+    border: 10x solid;
+}
+.web{
+    display: flex;
+    width: 400px;
+    justify-content: flex-start;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;   
+}
+.logo img{
+    width: 120px;  
+}
+.fn{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    width: 350px;
+}
+.fn img{
+    margin-top: 10px;
+    margin-left: 55px;
+}
+.codeSrc{
+    width: 400px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.codeSrc ul li{
+    display: block;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 100px;
+
+}
+.codeSrc ul li a{
+
+    text-decoration: none;
+}
+.user{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+
+    height: 500px;
+
+    margin-top: 80px;
+}
+.scenicSpot{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    height: 900px;
+    flex:auto;
+    background-color:rgb(41, 45, 62);
+}
+.catalogue{
+    width: auto;
+}
+.catalogue ul{
+    display: flex;
+    justify-content: center;
+}
+.catalogue ul li{
+    display: block;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+a{
+    text-decoration: none;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+.search input{
+    width: 650px;
+    height: 28px;
+    border: none;
+    background-color:rgb(27, 30, 43);
+    outline: none;
+    padding: 10px 30px;
+    font-size: 1.1em;
+    color: rgb(166, 172, 204);
+    box-shadow: 0 0 6px;
+    border-radius: 50px;
+}
+.search button{
+    margin-left: 10px;
+    padding: 13px;
+    background: none;
+    font-size: large;
+    border-radius: 50px;
+}
+.carousel{
+    margin-right: 6px;
+    margin-left: 6px;
+    margin-top: 20px;
+    width: auto;
+    height: 220px;
+    background-color:rgb(27, 30, 43);
+    border-radius: 20px;
+    box-shadow: 0 0 6px;
+}
+.scenicSpotInfo{
+    margin-right: 6px;
+    margin-left: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    height: 480px;
+    background-color:rgb(27, 30, 43);
+    border-radius: 20px;
+    box-shadow: 0 0 6px;
+
+}
+.eharts{
+    display: flex;
+    flex-direction: column;
+    padding-top: 65px;
+    width: 400px;
+    background-color:rgb(41, 45, 62);
+;
+}
+.NightingaleRoseChart{
+    width: auto;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: rgb(27, 30, 43);
+}
+.SankeyChart{
+    width: auto;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: rgb(27, 30, 43);
+}

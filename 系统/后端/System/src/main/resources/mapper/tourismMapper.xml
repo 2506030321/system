@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="BackService.Mapper.scenicInfoMapper">
+    <select id="queryAll" resultType="scenicInfoDao">
+        select * from tourism_system
+    </select>
+    
+    <select id="queryByKeyWord" resultType="scenicInfoDao">
+        select * from tourism_system
+        where scenicSpot like '%${cc}%'
+        limit 10
+    </select>
+    <select id="queryScenicSpot" resultType="scenicInfoDao">
+        select * from tourism_system
+        where scenicSpot = #{scenicSpot}
+    </select>
+
+    <!--    <insert id="add" parameterType="com.example.weixin_01.pojo.UserLogin">-->
+    <!--        insert into userLogin values (#{username},#{password})-->
+    <!--    </insert>-->
+
+    <!--    <select id="queryByName" resultType="com.example.weixin_01.pojo.UserLogin">-->
+    <!--        select * from userLogin where username = #{username}-->
+    <!--    </select>-->
+
+</mapper>

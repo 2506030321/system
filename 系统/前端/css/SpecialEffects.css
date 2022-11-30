@@ -1,0 +1,214 @@
+/* .LoginAndRegister{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 243, 215);
+    
+}
+.userInfoEhart{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    backface-visibility: hidden;
+    position:absolute;
+    transform: rotateY(180deg);
+}
+.user:hover .LoginAndRegister{
+    transform: rotateY(-180deg);
+    transition: 2s;   
+}
+.user:hover .userInfoEhart{
+    transform: rotateY(0deg);
+    transition: 2s;
+} */
+.user {
+    position: relative;
+}
+
+.LoginAndRegister {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(27, 30, 43);
+    border-radius: 15px;
+    box-shadow: 0 0 10px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.sbutton button {
+    margin: 30px 30px;
+    font-size: large;
+    color: rgb(166, 172, 204);
+    font-family: consolas;
+    background: none;
+    border: none;
+}
+
+.page {}
+
+.page input {
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid;
+    width: 260px;
+    height: 30px;
+    margin-top: 40px;
+    font-family: consolas;
+    font-size: 17px;
+}
+
+.page button {
+    width: 70%;
+    margin-top: 60px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(59, 67, 84);
+    outline: none;
+    border: none;
+}
+
+.userLogin {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    position: absolute;
+    visibility: hidden;
+}
+
+.userRegister {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    /* background-color: rgb(242, 215, 250); */
+    transform: rotate(100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.userInfoEhart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: rgb(27, 30, 43);
+    border-radius: 15px;
+    box-shadow: 0 0 10px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    /* 设置子元素排列方式 */
+
+}
+
+.cancellation {
+    align-self: flex-end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cancellation button {
+    background: none;
+    border: none;
+}
+
+.info {
+    margin: 20px 20px;
+    display: flex;
+}
+
+.box1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.box2 p {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.info img {
+    border-radius: 50%;
+    width: 80px;
+}
+
+.ehart {
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid; */
+    align-self: center;
+}
+
+.label {
+    align-self: center;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel ul {
+    display: flex;
+    text-decoration: none;
+    margin: 15px 40px;
+}
+
+.carousel ul li {
+    display: block;
+    text-decoration: none;
+}
+
+.carousel button {
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgb(59, 67, 84);
+}
+
+.scenicSpotInfo {
+    display: flex;
+
+}
+
+.scenic {
+    flex: 1;
+    padding: 20px 20px;
+}
+
+.scenic h3 {
+    padding-top: 20px;
+}
+
+.s {
+    flex: 1;
+}
